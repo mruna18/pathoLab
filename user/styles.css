@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* background-image: url('user/img/bg.jpeg'); */
+  
+}
+
+
+
+/* Sidebar Styles */
+.sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: #212020d1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.sidebar h2 {
+  color: rgba(247, 245, 245, 0.816);
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+ 
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: block;
+  color: rgb(210, 204, 204);
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #7c8983;
+}
+
+
+/* change if wnat to */
+.sidebar .active {
+  background-color: #8e9c8e;
+}
+
+/* Content Styles */
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+header {
+  /* background-color: #f2f2f2; */
+  background-color:#646767;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Fieldset */
+fieldset {
+  background-color: #8f9190;
+  border: 1px solid rgb(196, 190, 190);
+  border-radius: 10px;
+}
+
+legend {
+  background-color: #7f8482;
+  color: rgb(34, 33, 33);
+  padding: 5px 10px;
+  display: block;
+  padding-left: 2px;
+  padding-right: 2px;
+  border:1px solid rgb(224, 205, 205);
+  border-radius: 5px;
+  width: auto;
+  
+}
+
+input {
+  margin: 5px;
+}
+
+/* rounded border */
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #969695;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+/* Button on top of the image for Book Appointment */
+.btn1 {
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  top: 39%;
+    left: 91%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #1e96d2;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn1:hover {
+  background-color: rgb(40, 39, 39);
+  border: #1e96d2 solid;
+  /* background-color: transparent;
+  border: 1px solid transparent; */
+}
+
+/* linkx color */
+/* a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+} */
+
+
+/*profile*/
+  .img-account-profile {
+      height: 10rem;
+  }
+  .rounded-circle {
+      border-radius: 50% !important;
+  }
+  .card {
+      box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+  }
+  .card .card-header {
+      font-weight: 500;
+  }
+  .card-header:first-child {
+      border-radius: 0.35rem 0.35rem 0 0;
+  }
+  .card-header {
+      padding: 1rem 1.35rem;
+      margin-bottom: 0;
+      background-color: rgba(33, 40, 50, 0.03);
+      border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+  }
+  .form-control, .dataTable-input {
+      display: block;
+      width: 100%;
+      padding: 0.875rem 1.125rem;
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 1;
+      color: #69707a;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #c5ccd6;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-radius: 0.35rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .nav-borders .nav-link.active {
+      color: #0061f2;
+      border-bottom-color: #0061f2;
+  }
+  .nav-borders .nav-link {
+      color: #69707a;
+      border-bottom-width: 0.125rem;
+      border-bottom-style: solid;
+      border-bottom-color: transparent;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }

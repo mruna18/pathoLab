@@ -1,0 +1,120 @@
+html {
+   scroll-behavior: smooth;
+ }
+
+body {
+  background-image: url("img/1.png");
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat;
+}
+
+
+ .card{ 
+   box-shadow: 0 4px 8px 0 rgba(135, 118, 118, 0.2);
+   padding: 16px;
+   text-align: center;
+   background-color: #262222;
+   color: black;
+
+}
+
+.card:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} 
+
+/* for about us */
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+ .active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  transition: max-height 0.2s ease-out;
+}
+
+/* for the section */
+
+.box {
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: transform .8s all ease-in-out;
+  border: 2px solid pink;
+
+}
+
+/* #fig a:hover #img1  a:focus #img1{
+transform: scale(1.5)rotate(-3deg);
+}  */
+
+.box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} 
+
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display{
+  background-color: pink; width: auto; height: 700px; background-image: url('/img/3.png');
+  background-size: cover; background-repeat: no-repeat;
+}
+
