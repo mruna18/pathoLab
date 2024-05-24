@@ -71,15 +71,15 @@ The application requires no special technical guidance and all the views availab
 
 ## References 
 ### YouTube:
-	CodeWithHarry for php ( https://www.youtube.com/@CodeWithHarry )
+ - CodeWithHarry for php ( https://www.youtube.com/@CodeWithHarry )
 
 ### Sites:
-	 For HTML and CSS elements and designing. ( https://www.w3schools.com/ )
-	Bootstrap Documentation for bootstrap examples ( https://getbootstrap.com/ )
-	Amidst the challenges, we rely on StackOverFlow  resources to ensure the smooth functioning of our code. ( https://stackoverflow.com/  )
+-   For HTML and CSS elements and designing. ( https://www.w3schools.com/ )
+- 	Bootstrap Documentation for bootstrap examples ( https://getbootstrap.com/ )
+- 	Amidst the challenges, we rely on StackOverFlow  resources to ensure the smooth functioning of our code. ( https://stackoverflow.com/  )
 
 ### Software Tool: 
-VS code Live Share Extension For collaborative work.
+- VS code Live Share Extension For collaborative work.
 
 
 
