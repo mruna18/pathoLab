@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<style>
+    footer{
+        position: fixed; 
+                bottom: 200px; 
+                left: 0px; 
+                right: 0px;
+                height: 70px; 
+      }
+      body {
+  background-image: url('MJ.jpeg');
+  background-size: cover;
+  opacity: 1.0;
+}
+</style>
+</head>
+<body>
+<div>
+    <table>
+        <tr>
+            <td>
+                <p>
+                <strong style="font-size:35px; color:#5ce1e6;">The PathoLab</strong>
+            </p>
+            </td>
+            <td><img  style="float: right;  margin-top:0px; margin-left: 18em; width:170px;" src="pathoLab.jpeg"  alt="My Image"></td>
+        </tr>
+    </table>
+<p style="display:inline-block; color:#004AAD;">
+    <i><b>where excellence in diagnostics meets compassionate healthcare!</b></i>  
+</p>
+</div>
+<hr>
+
+<h4><u>Patients Demographics</u></h4>
+
+
+    <table style="width:100%">
+        <tr>
+          <td><b>Name:</b></td>
+          <td>{{ fname }}</td>
+          <td><b>Gender: </b></td>
+          <td>{{ gender }}</td>
+        </tr>
+        <tr>
+            <td><b>Date of Birth:</b></td>
+            <td>{{ dob }}</td>
+            <td><b>Patient Id: </b></td>
+            <td>{{ patient_id }}</td>
+        </tr>
+        <tr>
+            <td><b>Sample Collected at:</b></td>
+            <td>{{ sample_collected_at }}</td>
+            <td><b>Registration Date: </b></td>
+            <td>{{ reg_date }}</td>
+        </tr>
+        <tr>
+            <td><b>Registration Time:</b></td>
+          <td>{{ reg_time }}</td>
+          <td><b>Refered By: </b></td>
+          <td>Dr. MJ</td>
+        </tr>
+      </table>
+      <br>
+<hr>
+<p style="text-align: center;"><strong ><u>{{ test_name }}</u></strong></p>
+<table style="width:100%">
+    <tr>
+      <th>Investigation</th>
+      <th>Observed Value</th>
+      <th>Unit</th>
+      <th>Biological Reference</th>
+    </tr>
+    <tr>
+      <td>{{ investigation }}</td>
+      <td>{{ observed_value }}</td>
+      <td>{{ unit }}</td>
+      <td>{{ biological_ref }}</td>
+    </tr>
+  </table>
+  <div style="text-align: center;">
+  <p>***End Of Report***</p>
+</div>
+  <div>
+
+   
+  
+  <footer>
+    <div style="background-color: pink; width: 50px; height: 100%; margin-bottom: 50px;"  >
+        
+        <img src="stamp.png" alt="" width="140px" margin-bottom:80px; >
+    </div>
+        <p>Checked by
+            <br>
+            <b>(Pathologist)</b>
+        </p>
+        
+    <hr>
+    <!-- Copyright -->
+    <p> <strong>Phone:</strong> +91 7892-234-567<br>
+        <strong>Email:</strong><a href="add the mail link idk"> thepatholab@gmail.com</a><br>
+        <strong>Address: </strong> 1234 Greenwood Street, Mumbai, Maharastra<br>
+      
+        <strong>In-Person:</strong> Visit our The Patho Lab location to speak with a customer service representative in person.
+    </p>
+        <!-- Copyright -->
+  <br>
+  </footer>
+</div>
+</body>
+</html>
