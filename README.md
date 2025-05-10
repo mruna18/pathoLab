@@ -82,3 +82,7 @@ The application requires no special technical guidance and all the views availab
 - VS code Live Share Extension For collaborative work.
 
 
+## 👩‍💻 Contributors
+
+- [Mrunali](https://github.com/mruna18)
+- [janhaviss](https://github.com/janhaviss)
