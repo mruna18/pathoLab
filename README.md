@@ -86,3 +86,42 @@ The application requires no special technical guidance and all the views availab
 
 - [Mrunali](https://github.com/mruna18)
 - [janhaviss](https://github.com/janhaviss)
+
+## 🖼️ Project Preview
+- Index.php
+- ![image](https://github.com/user-attachments/assets/1dd2fe24-39a5-4bb5-9c6e-23b963f272c7)
+- ![image](https://github.com/user-attachments/assets/f1434cfb-25d0-47df-b8c6-e0085ae037c0)
+- ![image](https://github.com/user-attachments/assets/62033343-cdba-491f-a36d-1483b2070d89)
+
+
+- home_appointment.php
+- ![image](https://github.com/user-attachments/assets/dca12164-0a72-4051-8ae6-2d25c840d0c6)
+
+- User Login
+- ![image](https://github.com/user-attachments/assets/17ed2fbd-d4cc-4a9b-bd0c-1b02fe8020e8)
+
+- Admin Login
+- ![image](https://github.com/user-attachments/assets/54ce372f-0792-4795-91b3-3e0bdae50993)
+
+- Signup Page
+- ![image](https://github.com/user-attachments/assets/4230b3cd-1cc5-4d02-916f-c3f3fdcb48ad)
+  ![image](https://github.com/user-attachments/assets/1d285beb-4b46-4efe-8d86-7638a2b2e006)
+
+- User Dashboard
+- ![image](https://github.com/user-attachments/assets/a4828d30-4159-4a64-8bb2-c52d79ecad0f)
+
+- Admin Dashboard
+- ![image](https://github.com/user-attachments/assets/487e7613-22bd-404e-9b92-09956a212481)
+
+- receipt.php
+- ![image](https://github.com/user-attachments/assets/c8823179-c97f-4c4b-9f3d-4e810e609cf0)
+
+- report.php
+- ![image](https://github.com/user-attachments/assets/ec18962c-82fa-4216-babf-5b73f426696f)
+
+
+
+
+
+
+
